@@ -1,0 +1,13 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: BruelKjaer.BZ5503
+PackageVersion: 4.8.5.2
+PackageLocale: en-US
+Publisher: Bruel and Kjaer
+PackageName: BZ5503
+License: Proprietary
+Copyright: Copyright (c) 2014 Flexera Software LLC. All Rights Reserved.
+ShortDescription: Setup Launcher Unicode
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
