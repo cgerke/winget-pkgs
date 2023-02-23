@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: SystatSoftwareInc.SigmaPlot
+PackageVersion: 14.5
+PackageLocale: en-US
+Publisher: Systat Software Inc.,
+PackageName: SigmaPlot 14.5
+License: Proprietary
+ShortDescription: Graphing and Data Visualization. Requires --override to inject a serial number.
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0

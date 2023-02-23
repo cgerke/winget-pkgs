@@ -1,0 +1,23 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: SystatSoftwareInc.SigmaPlot
+PackageVersion: 14.5
+Platform:
+- Windows.Desktop
+InstallModes:
+- interactive
+- silent
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: zip
+  Scope: machine
+  NestedInstallerType: exe
+  NestedInstallerFiles:
+  - RelativeFilePath: SPW14_5_Net\SigmaplotInstaller.exe
+  InstallerUrl: https://systatsoftware.com/wp-content/products/download-resources/sigmaplot/SPW14_5_Net.zip
+  InstallerSha256: 2C4A11826DDB5E336A270258E509193258107F3638FE3030292B416B9CB8D675
+  ProductCode: '{FC0B80EE-90A1-401D-8B8C-4078995DE5E8}'
+ManifestType: installer
+ManifestVersion: 1.4.0
