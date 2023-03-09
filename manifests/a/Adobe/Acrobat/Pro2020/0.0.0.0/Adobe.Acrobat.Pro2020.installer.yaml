@@ -1,0 +1,20 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Adobe.Acrobat.Pro2020
+PackageVersion: 0.0.0.0
+Installers:
+- InstallerUrl: https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_2020_Web_WWMUI.zip
+  Architecture: x86
+  InstallerType: zip
+  Scope: machine
+  InstallerSwitches:
+    Silent: /sAll /rs /l
+    SilentWithProgress: /sPB /rs /l
+  NestedInstallerType: exe
+  NestedInstallerFiles:
+  - RelativeFilePath: Adobe Acrobat\Setup.exe
+  InstallerSha256: 13C70E7B3D2A852F13B919E04E92CA1809F9A83708CB59D62366A75E3687BE1C
+  ProductCode: '{AC76BA86-1033-FFFF-7760-0E1401753200}'
+ManifestType: installer
+ManifestVersion: 1.4.0
